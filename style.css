@@ -1,0 +1,15 @@
+*{ margin: 0 8px; padding: 8px 0;}
+/* tag para definir um comando para todos os elementos do aquivo *{} */
+body{background-color: aqua; color: white;} 
+/* comando para definir a cor do site e as cores dos texto */
+.cabecalho{background-color: black; color: brown;display: flex; justify-content: space-around;}
+/* novo comando para mudar apenas a cor do cabeçalho do site */
+/* display:flex  posiciona o texto ao lado da imagem*/
+/* justify- content significa justificar o conteúdo e a opção que escolhemos vai justificar margem iguais para elementos de uma mesma linha */
+.cabecalho-imagem{width: 10%;}
+/* novo comando para mudar o tamanho da imagem usando a tag class */
+.cabecalho-lista-item{display: inline-block;margin: 0 24px; padding: 16px 0;font-size: 24px;}
+/* display:inline-block tag que define que o elemento ocupe espaço suficiente para ser exibido*/
+/* margin espaçamento nas margens da página */
+/* padding espaçamento entre elementos, "linhas" */
+/* font-size: muda o tamanho da fonte do texto */
