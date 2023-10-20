@@ -51,43 +51,79 @@
         <h2 class="banner__titulo">Já sabe por onde começar?</h2>
         <p class="banner__texto">Encontre na nossa estante o que você precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
-
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos Lançamentos</h2>
         <!-- Slider main container -->
 <div class="swiper">
-    <div class=”swiper-pagination”></div>
     <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-      <!-- Slides -->
-      <div class="swiper-slide"><img src="./img/ApacheKafka.svg"></div>
-      <div class="swiper-slide"><img src="./img/Javascript.svg"></div>
-      <div class="swiper-slide"><img src="/img/Portugol.svg"></div>
-      ...
-    </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
+    
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./img/Angular.svg" alt="Primeiro livro da estante"></div>
+      <div class="swiper-slide"><img src="./img/Portugol.svg" alt="Segundo livro"></div>
+      <div class="swiper-slide"><img src="./img/Javascript.svg" alt="Terceiro livro"></div>
+      <div class="swiper-slide"><img src="./img/ApacheKafka.svg"></div>
+      <div class="swiper-slide"><img src="./img/Tuning.svg"></div>
+      <div class="swiper-slide"><img src="./img/Arquitetura.svg"></div>
+      <div class="swiper-slide"><img src="./img/Nodejs.svg"></div>
+      <div class="swiper-slide"><img src="./img/ReactNative.svg"></div>
+      <div class="swiper-slide"><img src="./img/Gestão.svg" alt=""></div>
+      <div class="swiper-slide"><img src="./img/Liderança.svg"></div>
+      <div class="swiper-slide"><img src="./img/Gestão2.svg"></div>
+      <div class="swiper-slide"><img src="./img/MetricasAgeis.svg"></div>
+      <div class="swiper-slide"><img src="./img/Construct2.svg" alt=""></div>
+      <div class="swiper-slide"><img src="./img/UX.svg"></div>
+      <div class="swiper-slide"><img src="./img/Guia Front-end.svg"></div>
+      <div class="swiper-slide"><img src="./img/MEAN.svg"></div>
+      <div class="swiper-slide"><img src="./img/Acessibilidade.svg"></div>
+      <div class="swiper-slide"><img src="./img/Angular_2.svg"></div>
+
+    </div>
+    
   
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
   
-   
+
+    
+  </div>
+
+  <div class="card">
+    <div class="card__descricao">
+        <div class="descricao>">
+            <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+            <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+             <p class="descricao__texto">Construindo um aplicativo integrado a plataforma GooGle</p>
+
+        </div>
+        <img class="descricao__imagem" src="./img/Angular_2.svg">
+    </div>
+    <div class="card__botao">
+        <ul class="botoes">
+            <li class="botao__item"><img src="./img/Favoritos (1).svg"></li>
+            <li class="botao__item"><img src="./img/Sacola.svg"></li>
+        </ul>
+        <a href="#" class="botoes__ancora">Saiba mais</a>
+    </div>
+    
   </div>
     </section>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    
     <script>
-       const swiper = new Swiper('.swiper', {
-spaceBetween: 10,
-slidesPerView: 3,
-pagination: {
-el: '.swiper-pagination',
-type: 'bullets',
-},
-        });
-        </script>
+        const swiper = new Swiper('.swiper', {
+  spaceBetween: 10,
+  slidesPerView:3,
+  pagination:{
+    el:'swiper-pagination',
+    type:'bullets',
+  },
+});
+    </script>
 </body>
 
 </html>
